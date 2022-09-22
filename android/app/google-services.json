@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "267152864189",
+    "project_id": "agora-video-705dc",
+    "storage_bucket": "agora-video-705dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267152864189:android:a7f8616a7a93bec9b418d4",
+        "android_client_info": {
+          "package_name": "com.app.agora_video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267152864189-2un5jcfcu4vhtjfvh1dreslbqglhoikk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.agora_video",
+            "certificate_hash": "e046d9ecaa731b43c984c74aa87eb7d5ca6c311e"
+          }
+        },
+        {
+          "client_id": "267152864189-5qhk0tp5sn8bj37ccq4nl57vkhd54s4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.agora_video",
+            "certificate_hash": "2769d1fc026d74246a9a73d90360629310bec386"
+          }
+        },
+        {
+          "client_id": "267152864189-chgl064mln0qsc6ov385oq9nighkopp0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.agora_video",
+            "certificate_hash": "9fe701a675cf342d76377fa70be3d878a0bb8cba"
+          }
+        },
+        {
+          "client_id": "267152864189-tgldlemlt92pp003i5td6eoglffqus75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.agora_video",
+            "certificate_hash": "1ad8f2d523e292c54b4a3ccb54385e0dc894fc72"
+          }
+        },
+        {
+          "client_id": "267152864189-v09oq3jni3rmghfq1bi2g14df0rfn09m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.agora_video",
+            "certificate_hash": "802a5dd5e826b8ec3a6369e0781b14dc9aa00d89"
+          }
+        },
+        {
+          "client_id": "267152864189-se7r9108nq03cl2p4tptl1utjms7h8ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN_unttzrUJCyeXBT71Mdj5yrC5q5pzOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267152864189-l4kgpmrq3iedq9t4mvjsl6jgvi0j9922.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "267152864189-16b87liuqog54nk5i4qkd8j0bd1q3r6t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.agora.video"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267152864189:android:c3ea5822219c6f8fb418d4",
+        "android_client_info": {
+          "package_name": "com.mobilefirst.nordic_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267152864189-se7r9108nq03cl2p4tptl1utjms7h8ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN_unttzrUJCyeXBT71Mdj5yrC5q5pzOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267152864189-l4kgpmrq3iedq9t4mvjsl6jgvi0j9922.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "267152864189-16b87liuqog54nk5i4qkd8j0bd1q3r6t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.agora.video"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
