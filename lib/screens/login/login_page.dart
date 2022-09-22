@@ -1,13 +1,14 @@
-import 'package:agora_video/main.dart';
-import 'package:agora_video/services/firebase_auth.dart';
-import 'package:agora_video/utils/app_colors.dart';
-import 'package:agora_video/utils/app_extras.dart';
-import 'package:agora_video/utils/app_methods.dart';
-import 'package:agora_video/utils/app_strings.dart';
-import 'package:agora_video/widgets/custom_button.dart';
-import 'package:agora_video/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../main.dart';
+import '../../services/firebase_auth.dart';
+import '../../utils/app_colors.dart';
+import '../../utils/app_extras.dart';
+import '../../utils/app_methods.dart';
+import '../../utils/app_strings.dart';
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_text_field.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -174,7 +175,7 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget buildTitleText() {
     return Text(
-      AppStrings.mFVideo,
+      AppStrings.appName,
       style: TextStyle(
         color: AppColors.primaryColor,
         fontWeight: FontWeight.bold,

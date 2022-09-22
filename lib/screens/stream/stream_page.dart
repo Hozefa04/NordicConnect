@@ -2,21 +2,21 @@ import 'dart:io';
 import 'package:agora_rtc_engine/rtc_engine.dart';
 import 'package:agora_rtc_engine/rtc_local_view.dart' as rtc_local;
 import 'package:agora_rtc_engine/rtc_remote_view.dart' as rtc_remote;
-import 'package:agora_video/extensions/app_extensions.dart';
-import 'package:agora_video/utils/app_extras.dart';
-import 'package:agora_video/utils/app_strings.dart';
-import 'package:agora_video/widgets/custom_text_field.dart';
-import 'package:agora_video/widgets/icon_button.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:emoji_picker_flutter/emoji_picker_flutter.dart' as emoji;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-
-import 'package:agora_video/utils/app_colors.dart';
-import 'package:agora_video/utils/app_id.dart';
-import 'package:agora_video/utils/app_methods.dart';
+import 'package:nordic_connect/extensions/app_extensions.dart';
 import 'package:wakelock/wakelock.dart';
+
+import '../../utils/app_colors.dart';
+import '../../utils/app_extras.dart';
+import '../../utils/app_id.dart';
+import '../../utils/app_methods.dart';
+import '../../utils/app_strings.dart';
+import '../../widgets/custom_text_field.dart';
+import '../../widgets/icon_button.dart';
 
 class StreamPage extends StatefulWidget {
   final String channelName;
@@ -180,13 +180,13 @@ class _StreamPageState extends State<StreamPage> {
         builder: (context, orientation) {
           if (orientation == Orientation.landscape && !isFullScreen) {
             if (!widget.isBroadcaster && userId != null) {
-              WidgetsBinding.instance?.addPostFrameCallback((_) {
+              WidgetsBinding.instance.addPostFrameCallback((_) {
                 setState(() {
                   isFullScreen = true;
                 });
               });
             } else {
-              WidgetsBinding.instance?.addPostFrameCallback((_) {
+              WidgetsBinding.instance.addPostFrameCallback((_) {
                 setState(() {
                   isFullScreen = true;
                 });
@@ -196,13 +196,13 @@ class _StreamPageState extends State<StreamPage> {
 
           if (orientation == Orientation.portrait && isFullScreen) {
             if (!widget.isBroadcaster && userId != null) {
-              WidgetsBinding.instance?.addPostFrameCallback((_) {
+              WidgetsBinding.instance.addPostFrameCallback((_) {
                 setState(() {
                   isChatShown = false;
                 });
               });
             } else {
-              WidgetsBinding.instance?.addPostFrameCallback((_) {
+              WidgetsBinding.instance.addPostFrameCallback((_) {
                 setState(() {
                   isChatShown = false;
                 });

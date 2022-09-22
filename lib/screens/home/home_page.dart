@@ -1,9 +1,10 @@
-import 'package:agora_video/screens/home/agent_home/agent_home.dart';
-import 'package:agora_video/screens/home/user_home/user_home.dart';
-import 'package:agora_video/utils/app_methods.dart';
-import 'package:agora_video/utils/late_class.dart';
-import 'package:agora_video/widgets/loading.dart';
 import 'package:flutter/material.dart';
+
+import '../../utils/app_methods.dart';
+import '../../utils/late_class.dart';
+import '../../widgets/loading.dart';
+import 'agent_home/agent_home.dart';
+import 'user_home/user_home.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

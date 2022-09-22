@@ -1,9 +1,9 @@
-import 'package:agora_video/services/firebase_auth.dart';
-import 'package:agora_video/utils/app_colors.dart';
-import 'package:agora_video/utils/app_methods.dart';
-import 'package:agora_video/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../services/firebase_auth.dart';
+import '../utils/app_colors.dart';
+import '../utils/app_methods.dart';
+import '../utils/app_strings.dart';
 
 class AppDrawer extends StatefulWidget {
   const AppDrawer({Key? key}) : super(key: key);
@@ -37,7 +37,7 @@ class _AppDrawerState extends State<AppDrawer> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 32),
               child: Text(
-                AppStrings.mFVideo,
+                AppStrings.appName,
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 32,

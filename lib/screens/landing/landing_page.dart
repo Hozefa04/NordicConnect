@@ -1,13 +1,14 @@
-import 'package:agora_video/screens/details_page/stream_details.dart';
-import 'package:agora_video/screens/home/home_page.dart';
-import 'package:agora_video/screens/landing/bloc/landing_bloc.dart';
-import 'package:agora_video/screens/login/login_page.dart';
-import 'package:agora_video/utils/app_methods.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../utils/app_methods.dart';
+import '../details_page/stream_details.dart';
+import '../home/home_page.dart';
+import '../login/login_page.dart';
+import 'bloc/landing_bloc.dart';
 
 class LandingPage extends StatefulWidget {
   final bool isLinkClicked;

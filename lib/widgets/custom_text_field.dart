@@ -1,7 +1,7 @@
-import 'package:agora_video/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 
 import '../utils/app_colors.dart';
+import '../utils/app_strings.dart';
 
 class CustomTextField extends StatelessWidget {
   final TextEditingController? controller;

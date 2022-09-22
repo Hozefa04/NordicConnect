@@ -1,6 +1,7 @@
-import 'package:agora_video/utils/app_colors.dart';
-import 'package:agora_video/utils/app_strings.dart';
 import 'package:flutter/material.dart';
+
+import '../utils/app_colors.dart';
+import '../utils/app_strings.dart';
 
 class CustomButton extends StatelessWidget {
   final String? text;

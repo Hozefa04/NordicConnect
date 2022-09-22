@@ -1,6 +1,7 @@
-import 'package:agora_video/utils/app_colors.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+
+import '../utils/app_colors.dart';
 
 class ImageFromNetwork extends StatelessWidget {
   final String imageLink;

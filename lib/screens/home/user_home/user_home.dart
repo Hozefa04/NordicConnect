@@ -1,9 +1,10 @@
-import 'package:agora_video/utils/app_colors.dart';
-import 'package:agora_video/utils/app_methods.dart';
-import 'package:agora_video/utils/app_strings.dart';
-import 'package:agora_video/widgets/app_drawer.dart';
-import 'package:agora_video/widgets/appbar.dart';
 import 'package:flutter/material.dart';
+
+import '../../../utils/app_colors.dart';
+import '../../../utils/app_methods.dart';
+import '../../../utils/app_strings.dart';
+import '../../../widgets/app_drawer.dart';
+import '../../../widgets/appbar.dart';
 
 class UserHomePage extends StatelessWidget {
   const UserHomePage({Key? key}) : super(key: key);

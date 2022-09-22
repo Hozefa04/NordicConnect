@@ -1,9 +1,10 @@
-import 'package:agora_video/utils/app_colors.dart';
-import 'package:agora_video/utils/app_methods.dart';
-import 'package:agora_video/utils/app_strings.dart';
-import 'package:agora_video/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+
+import '../widgets/custom_text_field.dart';
+import 'app_colors.dart';
+import 'app_methods.dart';
+import 'app_strings.dart';
 
 class AppExtras {
   static showLoaderDialog({

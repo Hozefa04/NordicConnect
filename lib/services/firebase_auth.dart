@@ -1,13 +1,13 @@
-// ignore_for_file: constant_identifier_names
-
-import 'package:agora_video/models/app_user.dart';
-import 'package:agora_video/services/auth_service.dart';
-import 'package:agora_video/utils/app_strings.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 
 import 'package:google_sign_in/google_sign_in.dart';
 
+import '../models/app_user.dart';
+import '../utils/app_strings.dart';
+import 'auth_service.dart';
+
+// ignore: constant_identifier_names
 enum AppLogin { FACEBOOK, GOOGLE, EMAIL, APPLE }
 
 class FirebaseAuthService implements AuthService {

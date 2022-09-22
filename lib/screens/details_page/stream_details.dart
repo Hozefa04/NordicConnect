@@ -1,11 +1,12 @@
-import 'package:agora_video/extensions/app_extensions.dart';
-import 'package:agora_video/screens/stream/stream_page.dart';
-import 'package:agora_video/utils/app_colors.dart';
-import 'package:agora_video/utils/app_methods.dart';
-import 'package:agora_video/utils/app_strings.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:nordic_connect/extensions/app_extensions.dart';
+
+import '../../utils/app_colors.dart';
+import '../../utils/app_methods.dart';
+import '../../utils/app_strings.dart';
+import '../stream/stream_page.dart';
 
 class StreamDetails extends StatelessWidget {
   final String channelName;

@@ -1,4 +1,4 @@
-import 'package:agora_video/models/app_user.dart';
+import '../models/app_user.dart';
 
 abstract class AuthService{
   Future<AppUser> currentUser();

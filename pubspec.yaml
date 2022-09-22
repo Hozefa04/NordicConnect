@@ -1,4 +1,4 @@
-name: agora_video
+name: nordic_connect
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -27,7 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  agora_rtc_engine: ^5.1.0
+  agora_rtc_engine: ^5.3.0
   bloc: ^8.0.3
   cached_network_image: ^3.2.0
   cloud_firestore: ^3.1.13

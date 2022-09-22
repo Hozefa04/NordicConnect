@@ -1,17 +1,17 @@
 import 'dart:io';
-
-import 'package:agora_video/extensions/app_extensions.dart';
-import 'package:agora_video/utils/app_extras.dart';
-import 'package:agora_video/utils/app_methods.dart';
-import 'package:agora_video/utils/app_strings.dart';
-import 'package:agora_video/widgets/custom_button.dart';
-import 'package:agora_video/widgets/custom_text_field.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:nordic_connect/extensions/app_extensions.dart';
 import 'package:permission_handler/permission_handler.dart';
+
+import '../../../../utils/app_extras.dart';
+import '../../../../utils/app_methods.dart';
+import '../../../../utils/app_strings.dart';
+import '../../../../widgets/custom_button.dart';
+import '../../../../widgets/custom_text_field.dart';
 
 class CreateEventTab extends StatefulWidget {
   const CreateEventTab({

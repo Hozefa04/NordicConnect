@@ -33,7 +33,7 @@ class AppStrings {
 
   //Login Page
   static String loaderLoggingIn = "Logging in";
-  static String mFVideo = "MFVideo";
+  static String appName = "Nordic Connect";
   static String startExperience = "Start The Experience From Here";
   static String letsGo = "Let's go";
   static String getStartedButton = "Get Started";

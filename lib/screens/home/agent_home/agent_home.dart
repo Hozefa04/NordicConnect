@@ -1,13 +1,14 @@
-import 'package:agora_video/screens/home/agent_home/tabs/create_event_tab.dart';
-import 'package:agora_video/screens/home/agent_home/tabs/view_event_tab.dart';
-import 'package:agora_video/screens/stream/stream_page.dart';
-import 'package:agora_video/utils/app_methods.dart';
-import 'package:agora_video/utils/app_strings.dart';
-import 'package:agora_video/widgets/app_drawer.dart';
-import 'package:agora_video/widgets/appbar.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../../utils/app_methods.dart';
+import '../../../utils/app_strings.dart';
+import '../../../widgets/app_drawer.dart';
+import '../../../widgets/appbar.dart';
+import '../../stream/stream_page.dart';
+import 'tabs/create_event_tab.dart';
+import 'tabs/view_event_tab.dart';
 
 class AgentHomePage extends StatefulWidget {
   final String? channelName;
