@@ -43,5 +43,31 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>For select user profile.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>For capture user profile.</string>
+	<key>NSMicrophoneUsageDescriptionNSMicrophoneUsageDescription</key>
+	<string>For capture user profile.</string>
+	<key>CFBundleURLTypes</key>
+    <array>
+    	<dict>
+    		<key>CFBundleTypeRole</key>
+    		<string>Editor</string>
+    		<key>CFBundleURLSchemes</key>
+    		<array>
+    			<!-- TODO Replace this value: -->
+    			<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+    			<string>com.googleusercontent.apps.267152864189-ru1e9hsgkmacbsghm6q0bism145cjqpi</string>
+    		</array>
+    	</dict>
+    </array>
 </dict>
 </plist>
