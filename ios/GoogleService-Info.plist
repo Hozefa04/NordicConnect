@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>267152864189-ru1e9hsgkmacbsghm6q0bism145cjqpi.apps.googleusercontent.com</string>
+	<string>267152864189-ndbg1me3k46c94q4nrufk1kq9hna627j.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.267152864189-ru1e9hsgkmacbsghm6q0bism145cjqpi</string>
+	<string>com.googleusercontent.apps.267152864189-ndbg1me3k46c94q4nrufk1kq9hna627j</string>
 	<key>ANDROID_CLIENT_ID</key>
 	<string>267152864189-2un5jcfcu4vhtjfvh1dreslbqglhoikk.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.nordicconnect</string>
+	<string>com.nordicapp</string>
 	<key>PROJECT_ID</key>
 	<string>agora-video-705dc</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:267152864189:ios:a2c65cc4c440b0d7b418d4</string>
+	<string>1:267152864189:ios:3c336470b4496165b418d4</string>
 </dict>
 </plist>

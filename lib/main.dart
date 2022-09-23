@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
@@ -13,7 +15,18 @@ import 'utils/app_methods.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  if (Platform.isIOS) {
+    await Firebase.initializeApp(
+      options: const FirebaseOptions(
+        apiKey: "AIzaSyAJnjedYjQNUvLs7wS4H5Czanknyss6MsY",
+        appId: "1:267152864189:ios:a2c65cc4c440b0d7b418d4",
+        messagingSenderId: "267152864189",
+        projectId: "agora-video-705dc",
+      ),
+    );
+  } else {
+    await Firebase.initializeApp();
+  }
   BlocOverrides.runZoned(
     () {
       runApp(const AgoraVideo());

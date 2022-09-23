@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Agora Video</string>
+	<string>Nordic Connect</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>agora_video</string>
+	<string>nordic_connect</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -24,6 +26,34 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>To live stream event</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>To stream audio during event stream</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To upload event thumbnail</string>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>vnml8.app.link</string>
+		<string>vnml8-alternate.app.link</string>
+		<string>vnml8.test-app.link</string>
+		<string>vnml8-alternate.test-app.link</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>mfvideo</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>com.nordicapp</string>
+		</dict>
+	</array>
+	<key>branch_key</key>
+	<string>key_live_fhZTLwCSds71G7osZQLkydenzwnsZf5b</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
