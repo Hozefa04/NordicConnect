@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>267152864189-ru1e9hsgkmacbsghm6q0bism145cjqpi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.267152864189-ru1e9hsgkmacbsghm6q0bism145cjqpi</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>267152864189-2un5jcfcu4vhtjfvh1dreslbqglhoikk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAJnjedYjQNUvLs7wS4H5Czanknyss6MsY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>267152864189</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nordicconnect</string>
+	<key>PROJECT_ID</key>
+	<string>agora-video-705dc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>agora-video-705dc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:267152864189:ios:a2c65cc4c440b0d7b418d4</string>
+</dict>
+</plist>
